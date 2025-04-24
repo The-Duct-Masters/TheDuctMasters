@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request a Quote - The Duct Master's</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="The Duct Master's Logo" class="logo"/>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Request a Quote</h2>
+    <form action="mailto:info.theductmaster@gmai.com" method="POST" enctype="text/plain">
+      <label>Name:</label><br>
+      <input type="text" name="name" required><br>
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br>
+      <label>Zip Code:</label><br>
+      <input type="text" name="zip" required><br>
+      <label>Service Needed:</label><br>
+      <select name="service">
+        <option value="Duct Cleaning">Duct Cleaning</option>
+        <option value="Vent Cleaning">Vent Cleaning</option>
+        <option value="Dryer Vent Cleaning">Dryer Vent Cleaning</option>
+        <option value="A/C Unit Cleaning">A/C Unit Cleaning</option>
+        <option value="Furnace Cleaning">Furnace Cleaning</option>
+        <option value="Chimney Cleaning">Chimney Cleaning</option>
+      </select><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="4"></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023-2025 All rights reserved TheDuctMaster's</p>
+  </footer>
+</body>
+</html>

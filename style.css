@@ -1,0 +1,65 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f3ed;
+  color: #4a2e0f;
+}
+header {
+  background-color: #d2b48c;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #4a2e0f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background-color: #e0c097;
+  padding: 50px 20px;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8b5e3c;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.services-preview {
+  padding: 20px;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+.service-card {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+footer {
+  background-color: #d2b48c;
+  text-align: center;
+  padding: 10px 0;
+}
